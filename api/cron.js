@@ -1,7 +1,7 @@
 // File: api/cronjob.js
 export default function handler(req, res) {
 
-    console.log("This is a log statement", new Date());
+    console.log("This is a log statement - cron", new Date());
 
     console.error("This is an error statement", new Date());
 
